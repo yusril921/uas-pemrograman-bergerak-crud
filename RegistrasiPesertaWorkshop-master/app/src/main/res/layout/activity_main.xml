@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Daftar Peserta Seminar"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:textColor="@color/hitam"
+    android:textStyle="bold"
+    android:fontFamily="casual"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="15dp"
+        android:id="@+id/lvContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_add_black_24dp"
+        android:tint="#FFFFFF"
+        app:rippleColor="#F48FB1"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin" />
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/floatingActionButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:clickable="true"-->
+<!--        android:src="@android:drawable/ic_input_add" />-->
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+</LinearLayout>

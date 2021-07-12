@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pendaftaran Peserta Seminar"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:fontFamily="casual"/>
+<LinearLayout
+    android:paddingTop="50dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/lyttambahtamu"
+            android:background="@drawable/bg_button"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_person_red"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah Tamu"
+            android:textColor="@color/hitam"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/lytbukutamu"
+                android:background="@drawable/bg_button"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_list_red"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daftar Tamu"
+                android:textColor="@color/hitam"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
